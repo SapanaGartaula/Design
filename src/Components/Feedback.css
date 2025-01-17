@@ -1,0 +1,427 @@
+.sixth {
+  padding-inline: 90px;
+  width: 100vw;
+  height: fit-content;
+  box-sizing: border-box;
+  height: 450px;
+  flex-wrap: wrap;
+}
+.secondary1 img {
+  width: 190px;
+  height: 10px;
+}
+.secondary p {
+  width: fit-content;
+  height: 28px;
+  font-family: Public Sans;
+  font-size: 19px;
+  font-weight: 400;
+  color: #6d737a;
+}
+.secondary2 {
+  width: 50%;
+  height: 240px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 30px;
+}
+.head {
+  display: flex;
+  gap: 10px;
+}
+.head1 {
+  width: 70px;
+  height: 70px;
+}
+.feed {
+  left: 19%;
+  position: absolute;
+}
+
+.event p {
+  font-family: Public Sans;
+  font-size: 23px;
+  font-weight: 600;
+  color: #000000;
+}
+.event1 {
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.context {
+  padding-left: 15px;
+}
+.designer {
+  width: fit-content;
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #363a3d;
+}
+.comma {
+  width: 44px;
+  height: 31px;
+  color: #20b486;
+  float: right;
+  margin-top: -3rem;
+  flex-wrap: wrap;
+}
+.heads {
+  display: flex;
+  gap: 10px;
+}
+
+.heads1 {
+  width: 70px;
+  height: 70px;
+}
+
+.risk p {
+  font-family: Public Sans;
+  font-size: 23px;
+  font-weight: 600;
+  width: fit-content;
+  color: #000000;
+}
+.risk1 {
+  font-family: Public Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+}
+.context1 {
+  padding-left: 15px;
+  width: fit-content;
+}
+.designers {
+  width: fit-content;
+  /* height: 72px; */
+  font-family: Public Sans;
+  font-weight: 400;
+  font-size: 16px;
+  color: #363a3d;
+}
+
+.commas {
+  width: 44px;
+  height: 32px;
+  color: #20b486;
+  position: absolute;
+}
+.commas1 {
+  width: 44px;
+  height: 32px;
+  color: #20b486;
+}
+.secondarys {
+  display: flex;
+  /* gap: 20px; */
+  width: 100%;
+  gap: 15px;
+
+}
+.secondary3 {
+  width: 50%;
+  height: 240px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 30px;
+}
+.body {
+  width: 108px;
+  height: 12px;
+  gap: 12px;
+  display: flex;
+  right: 40%;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.body1 {
+  width: 8px;
+  height: 8px;
+  background-color: #20b486;
+  border-radius: 50%;
+}
+.body2 {
+  width: 8px;
+  height: 8px;
+  background-color: #929293;
+  border-radius: 50%;
+}
+.body3 {
+  width: 8px;
+  height: 8px;
+  background-color: #929293;
+  border-radius: 50%;
+}
+.body4 {
+  width: 8px;
+  height: 8px;
+  background-color: #929293;
+  border-radius: 50%;
+}
+.body5 {
+  width: 8px;
+  height: 8px;
+  background-color: #929293;
+  border-radius: 50%;
+}
+.writes {
+  float: right;
+}
+
+.writes1 {
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #363a3d;
+}
+.writes2 {
+  width: 24px;
+  height: 24px;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #20b486;
+  background-color: #20b486;
+  color: #363a3d;
+  margin-left: 10px;
+}
+
+
+/* Laptop (1024px) */
+@media screen and (max-width: 1024px) {
+  .sixth {
+    padding-inline: 60px;
+    flex-wrap: wrap;
+  }
+
+  .secondarys {
+    gap: 20px;
+  }
+
+  .secondary2 {
+    width: 50%;
+    height: 210px;
+}
+.secondary3{
+  width: 50%;
+  height: 210px;
+}
+
+  .secondary2, .secondary3 {
+    padding: 20px;
+  }
+
+  .event p, .risk p {
+    font-size: 20px;
+  }
+
+  .designer, .designers {
+    font-size: 15px;
+  }
+
+  .feed {
+    left: 19%;
+  }
+}
+
+/* Tablet (768px) */
+@media screen and (max-width: 768px) {
+  .sixth {
+    padding-inline: 30px;
+
+    height: 675px;
+  }
+.secondary1 h1{
+  font-size: 30px;
+}
+.secondary p{
+  font-size: 16px;
+}
+  .secondarys {
+    flex-direction: column;
+    gap: 30px;
+  }
+ .context .designer{
+    width: fit-content;
+
+  }
+   .context1 .designers{
+    width: fit-content;
+
+  }
+  .secondary2{
+    width: 60%;
+    height: 200px;
+  }
+  .secondary3 {
+    width: 60%;
+    height: 200px;
+  }
+    
+  .secondary1 .feed {
+    width: 136px;
+    left: 27%;
+    margin-top: -1.6rem;
+    position: absolute;
+    flex-wrap: wrap;
+  }
+
+  .body {
+    right: 60%;
+    transform: translateX(50%);
+    margin-top: 25px;
+  }
+
+  .writes {
+    margin-top: 0px;
+    float: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 9px;
+  }
+}
+
+/* Mobile (480px) */
+@media screen and (max-width: 480px) {
+  .sixth {
+    padding-inline: 20px;
+  }
+
+  .secondary1 h1 {
+    font-size: 24px;
+  }
+
+  .secondary p {
+    font-size: 16px;
+    height: auto;
+  }
+
+ .secondary1  .feed {
+    left: 25%;
+    width: 120px;
+    height: 8px;
+    margin-top: -1.2rem;
+    position: absolute;
+    flex-wrap: wrap;
+  }
+
+  .head, .heads {
+    gap: 8px;
+  }
+
+  .head1, .heads1 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .event p, .risk p {
+    font-size: 18px;
+  }
+
+  .event1, .risk1 {
+    font-size: 14px;
+  }
+
+  .context, .context1 {
+    padding-left: 10px;
+  }
+
+  .designer, .designers {
+    font-size: 14px;
+  }
+
+  .comma {
+  display: none;
+  }
+
+  .body {
+    gap: 8px;
+  }
+
+  .writes1, .writes2 {
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+  }
+}
+
+/* Small Mobile (320px) */
+@media screen and (max-width: 376px) {
+  .sixth {
+    padding-inline: 15px;
+  }
+
+  .secondary1 h1 {
+    font-size: 20px;
+  }
+  .secondary1 p{
+    font-size: 14px;;
+  }
+  .secondary1 .feed{
+    left: 24%;
+    width: 90px;
+    height: 8px;
+    margin-top: -1rem;
+    position: absolute;
+    flex-wrap: wrap;
+
+
+  }
+
+  .head1, .heads1 {
+    width: 50px;
+    height: 50px;
+  }
+  .designer, .designers{
+    font-size: 13px;
+  }
+  .event p, .risk p {
+    font-size: 16px;
+  }
+
+  .event1, .risk1 {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .sixth {
+    padding-inline: 15px;
+    flex-wrap: wrap;
+  }
+
+  .secondary1 h1 {
+    font-size: 20px;
+  }
+  .secondary1 p{
+    font-size: 14px;;
+  }
+  .secondary1 .feed{
+    left: 24%;
+    width: 90px;
+    height: 8px;
+    margin-top: -1rem;
+    position: absolute;
+
+
+  }
+
+  .head1, .heads1 {
+    width: 50px;
+    height: 50px;
+  }
+  .designer, .designers{
+    font-size: 11px;
+  }
+  .event p, .risk p {
+    font-size: 16px;
+  }
+
+  .event1, .risk1 {
+    font-size: 12px;
+  }
+}

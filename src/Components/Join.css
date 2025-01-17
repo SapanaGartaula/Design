@@ -1,0 +1,164 @@
+
+.guide {
+  display: flex;
+  background-color: #e9f8f3b2;
+  padding-inline: 90px;
+  overflow: hidden;
+  height: 350px;
+  width: 100%;
+}
+
+.guide1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.guide2 {
+  flex: 1;
+  margin-top: 90px;
+  margin-left: 30px;
+}
+
+.guide2 h1 {
+  width: 534px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.guide p {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #06241b;
+  margin-top: -10px;
+}
+
+.follow {
+  color: #20b486;
+}
+
+.guides {
+  width: 168px;
+  height: 48px;
+  padding: 12px 24px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #20b486;
+  background-color: #20b486;
+  color: white;
+  cursor: pointer;
+}
+
+.hour {
+  width: 536px;
+  height: 320px;
+}
+
+/* Laptop - 1024px */
+@media screen and (max-width: 1024px) {
+  .guide {
+    flex-direction: row;
+    padding-inline: 50px;
+    height: 360px;
+    flex-wrap: wrap;
+  }
+
+  .guide2 h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .guide p {
+    font-size: 20px;
+  }
+
+  .hour {
+    width: 450px;
+    height: auto;
+  }
+
+  .guides {
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+  }
+}
+
+/* Tablet - 768px */
+@media screen and (max-width: 768px) {
+  .guide {
+    flex-direction: column;
+    padding-inline: 30px;
+     height: 520px;
+     flex-wrap: wrap;
+  }
+
+  .guide1 .hour {
+    width: 60%;
+    height: auto;
+  }
+
+  .guide2 {
+    margin-top: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .guide2 h1 {
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .guide p {
+    font-size: 18px;
+  }
+
+  .guides {
+    width: 140px;
+    height: 40px;
+    font-size: 13px;
+    margin-top: -2px;
+   
+  }
+}
+
+/* Mobile - 480px */
+@media screen and (max-width: 480px) {
+  .guide {
+    flex-direction: column;
+    padding-inline: 20px;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .hour {
+    width: 100%;
+    height: auto;
+  }
+
+  .guide2 {
+    margin-top: 30px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .guide2 h1 {
+    font-size: 24px;
+    line-height: 1.5;
+    width: 100%;
+  }
+
+  .guide p {
+    font-size: 16px;
+  }
+
+  .guides {
+    width: 120px;
+    height: 38px;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+}
